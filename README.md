@@ -1,11 +1,11 @@
 <pre style="font-family: 'SF Mono', Consolas, 'Courier New', monospace; font-size: 12px; background-color: #0d1117; color: #c9d1d9; border: 1px solid #30363d; padding: 20px; line-height: 1.5; border-radius: 6px; text-shadow: 0 0 2px rgba(0,0,0,0.5);">
-<span style="color: #ff0055;"> __  __     ______     __         __     ______  </span>
-<span style="color: #ff0055;">/\ \_\ \   /\  __ \   /\ \       /\ \   /\__  _\ </span>
-<span style="color: #00e5ff;">\ \  __ \  \ \  __ \  \ \ \____  \ \ \  \/_/\ \/ </span>
-<span style="color: #00e5ff;"> \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\    \ \_\ </span>
-<span style="color: #ffffff;">  \/_/\/_/   \/_/\/_/   \/_____/   \/_/     \/_/ </span>
-
 <span style="color: #d2a8ff;">[    0.000000]</span> <strong style="color: #c9d1d9;">Linux version 6.9.2-halit-sec (root@sys-build) (gcc 12.2.0)</strong>
+<span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #ff0055;"> __  __     ______     __         __     ______  </span>
+<span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #ff0055;">/\ \_\ \   /\  __ \   /\ \       /\ \   /\__  _\ </span>
+<span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #00e5ff;">\ \  __ \  \ \  __ \  \ \ \____  \ \ \  \/_/\ \/ </span>
+<span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #00e5ff;"> \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\    \ \_\ </span>
+<span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #ffffff;">  \/_/\/_/   \/_/\/_/   \/_____/   \/_/     \/_/ </span>
+
 <span style="color: #d2a8ff;">[    0.045000]</span> <span style="color: #c9d1d9;">Memory: 64G/64G available (kernel code/data reserved)</span>
 <span style="color: #d2a8ff;">[    0.850000]</span> <span style="color: #c9d1d9;">sys_init: loading core security modules...</span>
 
@@ -25,5 +25,5 @@
 <span style="color: #d2a8ff;">[    2.100250]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><a href="https://linkedin.com/in/halitalptekin" style="text-decoration: none; color: #00e5ff; border-bottom: 1px dashed #00e5ff;"><strong>networkd (linkedin_tunnel)</strong></a>.
 <span style="color: #d2a8ff;">[    2.100500]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong style="color: #ff0055;">smtpd (halit [at] alptekin [dot] im)</strong>.
 
-<span style="color: #d2a8ff;">[    3.000000]</span> <span style="color: #c9d1d9;">halit login: _</span>
+<span style="color: #d2a8ff;">[    3.000000]</span> <span style="color: #c9d1d9;">halit login: </span><span style="color: #ff0055; animation: blink 1s infinite; font-weight: bold;">█</span>
 </pre>
