@@ -1,16 +1,29 @@
-## Hi there 👋
+<pre style="font-family: 'SF Mono', Consolas, 'Courier New', monospace; font-size: 12px; background-color: #0d1117; color: #c9d1d9; border: 1px solid #30363d; padding: 20px; line-height: 1.5; border-radius: 6px; text-shadow: 0 0 2px rgba(0,0,0,0.5);">
+<span style="color: #ff0055;"> __  __     ______     __         __     ______  </span>
+<span style="color: #ff0055;">/\ \_\ \   /\  __ \   /\ \       /\ \   /\__  _\ </span>
+<span style="color: #00e5ff;">\ \  __ \  \ \  __ \  \ \ \____  \ \ \  \/_/\ \/ </span>
+<span style="color: #00e5ff;"> \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\    \ \_\ </span>
+<span style="color: #ffffff;">  \/_/\/_/   \/_/\/_/   \/_____/   \/_/     \/_/ </span>
 
-<!--
-**halit/halit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<span style="color: #d2a8ff;">[    0.000000]</span> <strong style="color: #c9d1d9;">Linux version 6.9.2-halit-sec (root@sys-build) (gcc 12.2.0)</strong>
+<span style="color: #d2a8ff;">[    0.045000]</span> <span style="color: #c9d1d9;">Memory: 64G/64G available (kernel code/data reserved)</span>
+<span style="color: #d2a8ff;">[    0.850000]</span> <span style="color: #c9d1d9;">sys_init: loading core security modules...</span>
 
-Here are some ideas to get you started:
+<span style="color: #d2a8ff;">[    1.100100]</span> <span style="color: #c9d1d9;">loading module: </span><strong style="color: #ff0055; text-shadow: 0 0 5px #ff0055;">reverse_engineering</strong> <span style="color: #e3b341;">[0xffff88000]</span>
+<span style="color: #d2a8ff;">[    1.100250]</span> <span style="color: #c9d1d9;">       ├── </span><span style="color: #ff0055;">symbol: exploitation</span>
+<span style="color: #d2a8ff;">[    1.100400]</span> <span style="color: #c9d1d9;">       └── </span><span style="color: #ff0055;">symbol: malware_analysis</span>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<span style="color: #d2a8ff;">[    1.200100]</span> <span style="color: #c9d1d9;">loading module: </span><strong style="color: #ff0055; text-shadow: 0 0 5px #ff0055;">red_team</strong> <span style="color: #e3b341;">[0xffff88100]</span>
+<span style="color: #d2a8ff;">[    1.200250]</span> <span style="color: #c9d1d9;">       └── </span><span style="color: #ff0055;">symbol: vulnerability_analysis</span>
+
+<span style="color: #d2a8ff;">[    1.300100]</span> <span style="color: #c9d1d9;">loading module: </span><strong style="color: #00e5ff; text-shadow: 0 0 5px #00e5ff;">blue_team</strong> <span style="color: #e3b341;">[0xffff99000]</span>
+<span style="color: #d2a8ff;">[    1.300250]</span> <span style="color: #c9d1d9;">       ├── </span><span style="color: #00e5ff;">symbol: incident_response</span>
+<span style="color: #d2a8ff;">[    1.300400]</span> <span style="color: #c9d1d9;">       ├── </span><span style="color: #00e5ff;">symbol: digital_forensics</span>
+<span style="color: #d2a8ff;">[    1.300550]</span> <span style="color: #c9d1d9;">       └── </span><span style="color: #00e5ff;">symbol: threat_intelligence</span>
+
+<span style="color: #d2a8ff;">[    2.100000]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><a href="https://halit.alptekin.im" style="text-decoration: none; color: #ffffff; border-bottom: 1px dashed #ffffff;"><strong>httpd (halit.alptekin.im)</strong></a>.
+<span style="color: #d2a8ff;">[    2.100250]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><a href="https://linkedin.com/in/halitalptekin" style="text-decoration: none; color: #00e5ff; border-bottom: 1px dashed #00e5ff;"><strong>networkd (linkedin_tunnel)</strong></a>.
+<span style="color: #d2a8ff;">[    2.100500]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong style="color: #ff0055;">smtpd (halit [at] alptekin [dot] im)</strong>.
+
+<span style="color: #d2a8ff;">[    2.500000]</span> <span style="color: #c9d1d9;">halit login: _</span><span style="animation: blink 1s infinite; color: #c9d1d9;">█</span>
+</pre>
