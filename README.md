@@ -24,5 +24,6 @@
 <span style="color: #d2a8ff;">[    2.100000]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong>httpd: <a href="https://halit.alptekin.im" style="text-decoration: none; color: #ffffff; border-bottom: 1px dashed #ffffff;">halit.alptekin.im</a></strong>
 <span style="color: #d2a8ff;">[    2.100250]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong>networkd: <a href="https://linkedin.com/in/halitalptekin" style="text-decoration: none; color: #00e5ff; border-bottom: 1px dashed #00e5ff;">linkedin</a></strong>
 <span style="color: #d2a8ff;">[    2.100500]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong style="color: #ff0055;">maild: <a href="mailto:halit@alptekin.im" style="text-decoration: none; color: #00e5ff; border-bottom: 1px dashed #00e5ff;">halit@alptekin.im</a></strong>
+  
 <span style="color: #d2a8ff;">[    3.000000]</span> <span style="color: #c9d1d9;">halit login: </span><span style="color: #ff0055; animation: blink 1s infinite; font-weight: bold;">█</span>
 </pre>
