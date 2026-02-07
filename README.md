@@ -25,8 +25,5 @@
 <span style="color: #d2a8ff;">[    2.100250]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><a href="https://linkedin.com/in/halitalptekin" style="text-decoration: none; color: #00e5ff; border-bottom: 1px dashed #00e5ff;"><strong>networkd (linkedin_tunnel)</strong></a>.
 <span style="color: #d2a8ff;">[    2.100500]</span> <span style="color: #3fb950;">[  OK  ]</span> <span style="color: #c9d1d9;">Started </span><strong style="color: #ff0055;">smtpd (halit [at] alptekin [dot] im)</strong>.
 
-<span style="color: #d2a8ff;">[    2.800000]</span> <span style="color: #c9d1d9;">ps -aux | grep current_task</span>
-<span style="color: #d2a8ff;">[    2.800150]</span> <span style="color: #c9d1d9;">root      1337  0.0  0.1  148M  R+   </span><span style="color: #e3b341;">./research_kernel_fuzzing --deep</span>
-
 <span style="color: #d2a8ff;">[    3.000000]</span> <span style="color: #c9d1d9;">halit login: _</span>
 </pre>
