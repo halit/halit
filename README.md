@@ -1,5 +1,6 @@
 <pre style="font-family: 'SF Mono', Consolas, 'Courier New', monospace; font-size: 12px; background-color: #0d1117; color: #c9d1d9; border: 1px solid #30363d; padding: 20px; line-height: 1.5; border-radius: 6px; text-shadow: 0 0 2px rgba(0,0,0,0.5);">
 <span style="color: #d2a8ff;">[    0.000000]</span> <strong style="color: #c9d1d9;">Linux version 6.9.2-halit-sec (root@sys-build) (gcc 12.2.0)</strong>
+  
 <span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #ff0055;"> __  __     ______     __         __     ______  </span>
 <span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #ff0055;">/\ \_\ \   /\  __ \   /\ \       /\ \   /\__  _\ </span>
 <span style="color: #d2a8ff;">[    0.000100]</span> <span style="color: #00e5ff;">\ \  __ \  \ \  __ \  \ \ \____  \ \ \  \/_/\ \/ </span>
