@@ -1,0 +1,53 @@
+<svg fill="none" viewBox="0 0 800 420" width="800" height="420" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="[http://www.w3.org/1999/xhtml](http://www.w3.org/1999/xhtml)">
+      <style>
+        .container {
+          font-family: 'SF Mono', Consolas, 'Courier New', monospace;
+          font-size: 14px;
+          background-color: #0d1117;
+          color: #b0b8c6;
+          padding: 20px;
+          line-height: 1.5;
+          border-radius: 6px;
+          border: 1px solid #30363d;
+        }
+        .addr { color: #8b949e; }
+        .inst { color: #ff7b72; } /* Red/Pink */
+        .reg { color: #d2a8ff; } /* Purple */
+        .val { color: #a5d6ff; } /* Light Blue */
+        .comment { color: #6e7681; font-style: italic; }
+        .red-glow { color: #ff0055; text-shadow: 0 0 8px rgba(255, 0, 85, 0.6); font-weight: bold; }
+        .blue-glow { color: #00e5ff; text-shadow: 0 0 8px rgba(0, 229, 255, 0.6); font-weight: bold; }
+        .green { color: #3fb950; text-decoration: none; }
+        .cursor { animation: blink 1s infinite; color: #ff0055; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      </style>
+      
+      <div class="container">
+        <div><span class="addr">00007FF6</span> | <span class="inst">lea</span> <span class="reg">rax</span>, <span class="val">[rip+0x1000]</span>    <span class="comment">; Load Profile "Halit"</span></div>
+        <div><span class="addr">00007FFA</span> | <span class="inst">nop</span>                          <span class="comment">; Padding</span></div>
+        <br/>
+        <div class="comment">; --- SECTION .TEXT: OFFENSIVE CAPABILITIES ---</div>
+        <div><span class="addr">00007FFB</span> | <span class="inst">push</span> <span class="red-glow">"Reverse Engineering"</span></div>
+        <div><span class="addr">00007FFC</span> | <span class="inst">push</span> <span class="red-glow">"Exploitation"</span></div>
+        <div><span class="addr">00007FFD</span> | <span class="inst">push</span> <span class="red-glow">"Malware Analysis"</span></div>
+        <div><span class="addr">00007FFE</span> | <span class="inst">call</span> <span class="inst">Execute_Red_Team_Ops</span></div>
+        <br/>
+        <div class="comment">; --- SECTION .TEXT: DEFENSIVE CAPABILITIES ---</div>
+        <div><span class="addr">00008000</span> | <span class="inst">push</span> <span class="blue-glow">"Incident Response"</span></div>
+        <div><span class="addr">00008001</span> | <span class="inst">push</span> <span class="blue-glow">"Digital Forensics"</span></div>
+        <div><span class="addr">00008002</span> | <span class="inst">push</span> <span class="blue-glow">"Threat Intelligence"</span></div>
+        <div><span class="addr">00008003</span> | <span class="inst">call</span> <span class="inst">Execute_Blue_Team_Ops</span></div>
+        <br/>
+        <div class="comment">; --- SECTION .DATA: CONNECTIVITY ---</div>
+        <div><span class="addr">00008010</span> | <span class="inst">mov</span> <span class="reg">rdi</span>, <span class="green">"httpd: halit.alptekin.im"</span></div>
+        <div><span class="addr">00008014</span> | <span class="inst">mov</span> <span class="reg">rsi</span>, <span class="green">"tunnel: [linkedin.com/in/halit](https://linkedin.com/in/halit)"</span></div>
+        <div><span class="addr">00008018</span> | <span class="inst">mov</span> <span class="reg">rdx</span>, <span class="val">"mail: halit [at] alptekin.im"</span></div>
+        <br/>
+        <div><span class="addr">00008020</span> | <span class="inst">ret</span> <span class="comment">; Return to Caller</span></div>
+        <div><span class="addr">00008021</span> | <span class="inst">int3</span> <span class="comment">; Breakpoint reached_</span><span class="cursor">█</span></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
